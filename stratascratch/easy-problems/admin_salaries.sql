@@ -1,0 +1,1 @@
+select count(worker_id) from worker where department ='Admin' and extract(month from joining_date) >3;
